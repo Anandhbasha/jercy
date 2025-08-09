@@ -1,0 +1,10 @@
+ #head2{
+    background-color: peru;
+    margin: 100px 50px 100px 200px;
+    padding: 10px 30px;
+}
+.head2{
+    margin: 100px 50px 100px 200px;
+    padding: 10px 30px;
+    background-color: rgb(2, 231, 86);
+}
