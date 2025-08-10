@@ -8,3 +8,20 @@
     padding: 10px 30px;
     background-color: rgb(2, 231, 86);
 }
+input{
+    padding: 10px 15px;
+    border-radius: 15px 30px;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: red;
+}
+th{
+    background-color: wheat;
+}
+.container{
+    margin-left: 100px;
+}
