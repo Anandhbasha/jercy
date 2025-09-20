@@ -202,6 +202,21 @@
     // for each
     arr1.forEach((item)=>console.log(item))
 
+
+    // Jercy
+    // J
+    // Je
+
+    // Jercy
+    // ercy
+    // rcy
+    // cy
+    // y
+
+    // max number
+    // palidrome
+
+    // mom
         
         
         
