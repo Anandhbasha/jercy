@@ -177,7 +177,7 @@
     // console.log(arr1[5]);
     
     // for
-    let arr1 = [10,50,88,77,55,23]
+    // let arr1 = [10,50,88,77,55,23]
     // let total=0
     //    for(let x=0;x<arr1.length;x++){
     //         total+=arr1[x]
@@ -191,16 +191,16 @@
     //             console.log(arr1[x]);            
     //         }
     //    } 
-    //for of
-    for(let x of arr1){
-        console.log(x);        
-    }
-    // for in
-    for(let x in arr1){
-        console.log(x);        
-    }
-    // for each
-    arr1.forEach((item)=>console.log(item))
+    // //for of
+    // for(let x of arr1){
+    //     console.log(x);        
+    // }
+    // // for in
+    // for(let x in arr1){
+    //     console.log(x);        
+    // }
+    // // for each
+    // arr1.forEach((item)=>console.log(item))
 
 
     // Jercy
@@ -216,7 +216,73 @@
     // max number
     // palidrome
 
-    // mom
+    // array methods
+    let arr1 = [10,50,88,77,6,23]
+        // map
+        arr1.map((item)=>console.log(item))
+        // reduce
+        let total = arr1.reduce((x,y)=>x+y)
+        console.log(total);
         
+        // filter
+        console.log(arr1.filter((x)=>x%2!=0));
+        
+        // push
+        arr1.push(101)
+        console.log(arr1);
+        
+        // pop
+        arr1.pop()
+        console.log(arr1);
+        
+        // shift
+        arr1.shift()
+        console.log(arr1);
+        
+        // unshift
+        arr1.unshift(203)
+        console.log(arr1);
+        
+        // indexOf
+        console.log(arr1.indexOf(88));
+        
+        // includes
+        console.log(arr1.includes(88));
+        
+        // find
+        let finds = arr1.find((x)=>x==80)
+        console.log(finds);
+        
+        // sort
+        let days = ["mon","tues","thurs","sat","sun",]
+        // console.log(days.sort());
+        // console.log(arr1.sort());
+        
+        // slice
+        console.log(days.slice(0,3));
+        
+        //splice
+        days.splice(2,0,"wed")
+        days.splice(4,0,"fri")
+        console.log(days);
+        
+        // spread
+        let newArr = [...days,...arr1]
+        console.log(newArr);
+        
+
+        // rest
+        let [first,second,...rest] = days
+        console.log(first);
+        console.log(second);
+        console.log(rest);
+        
+        // template literals
+        let agea = 20
+        console.log("He is Above"+agea+"He is Adult");
+        console.log(`He is Above ${agea} He is Adult`);
+        
+        // setTimeout
+        // setInterval
         
         
