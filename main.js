@@ -113,48 +113,48 @@
     // // logical
     //     // &&,||,!
     //     console.log(10<15 && 50>55 && num1<13);
-    //     console.log(10>15 || 50>55 && num1<13);
-    //     console.log(num1!=5);
-    // // ternary operator
-    //     let age=20
-    //     console.log(age>=20?"Adult":"Teenager");
+    // //     console.log(10>15 || 50>55 && num1<13);
+    // //     console.log(num1!=5);
+    // // // ternary operator
+    // //     let age=20
+    // //     console.log(age>=20?"Adult":"Teenager");
     
 
-    // if else
-    let age=12
-    if(age>=20){
-        console.log("Adult");        
-    }else if(age<=19 && age<=13){
-        console.log("Child");        
-    }
-    else{
-        console.log("Teeanger");        
-    }
+    // // if else
+    // let age=12
+    // if(age>=20){
+    //     console.log("Adult");        
+    // }else if(age<=19 && age<=13){
+    //     console.log("Child");        
+    // }
+    // else{
+    //     console.log("Teeanger");        
+    // }
 
-    // switch
-    let today = "Saturday"
-    switch(today){
-        case "Monday":
-            console.log("Today is Monday")
-            break            
-        case "Tuesday":
-            console.log("Today is Tuesday")
-            break            
-        case "Wednesday":
-            console.log("Today is Wednesday") 
-            break           
-        case "Thursday":
-            console.log("Today is Thursday") 
-            break           
-        case "Friday":
-            console.log("Today is Friday")
-            break            
-        case "Saturday":
-            console.log("Today is Saturday")  
-            break          
-        default:
-            console.log("Today is Sunday")            
-    }
+    // // switch
+    // let today = "Saturday"
+    // switch(today){
+    //     case "Monday":
+    //         console.log("Today is Monday")
+    //         break            
+    //     case "Tuesday":
+    //         console.log("Today is Tuesday")
+    //         break            
+    //     case "Wednesday":
+    //         console.log("Today is Wednesday") 
+    //         break           
+    //     case "Thursday":
+    //         console.log("Today is Thursday") 
+    //         break           
+    //     case "Friday":
+    //         console.log("Today is Friday")
+    //         break            
+    //     case "Saturday":
+    //         console.log("Today is Saturday")  
+    //         break          
+    //     default:
+    //         console.log("Today is Sunday")            
+    // }
     
 
     // loops
@@ -185,104 +185,204 @@
     //    console.log(total);
        
     
-        // even number
-    //    for(let x=0;x<arr1.length;x++){
-    //         if(arr1[x]%2!=0){
-    //             console.log(arr1[x]);            
-    //         }
-    //    } 
-    // //for of
-    // for(let x of arr1){
-    //     console.log(x);        
-    // }
-    // // for in
-    // for(let x in arr1){
-    //     console.log(x);        
-    // }
-    // // for each
-    // arr1.forEach((item)=>console.log(item))
+    //     // even number
+    // //    for(let x=0;x<arr1.length;x++){
+    // //         if(arr1[x]%2!=0){
+    // //             console.log(arr1[x]);            
+    // //         }
+    // //    } 
+    // // //for of
+    // // for(let x of arr1){
+    // //     console.log(x);        
+    // // }
+    // // // for in
+    // // for(let x in arr1){
+    // //     console.log(x);        
+    // // }
+    // // // for each
+    // // arr1.forEach((item)=>console.log(item))
 
 
-    // Jercy
-    // J
-    // Je
+    // // Jercy
+    // // J
+    // // Je
 
-    // Jercy
-    // ercy
-    // rcy
-    // cy
-    // y
+    // // Jercy
+    // // ercy
+    // // rcy
+    // // cy
+    // // y
 
-    // max number
-    // palidrome
+    // // max number
+    // // palidrome
 
-    // array methods
-    let arr1 = [10,50,88,77,6,23]
-        // map
-        arr1.map((item)=>console.log(item))
-        // reduce
-        let total = arr1.reduce((x,y)=>x+y)
-        console.log(total);
+    // // array methods
+    // let arr1 = [10,50,88,77,6,23]
+    //     // map
+    //     arr1.map((item)=>console.log(item))
+    //     // reduce
+    //     let total = arr1.reduce((x,y)=>x+y)
+    //     console.log(total);
         
-        // filter
-        console.log(arr1.filter((x)=>x%2!=0));
+    //     // filter
+    //     console.log(arr1.filter((x)=>x%2!=0));
         
-        // push
-        arr1.push(101)
-        console.log(arr1);
+    //     // push
+    //     arr1.push(101)
+    //     console.log(arr1);
         
-        // pop
-        arr1.pop()
-        console.log(arr1);
+    //     // pop
+    //     arr1.pop()
+    //     console.log(arr1);
         
-        // shift
-        arr1.shift()
-        console.log(arr1);
+    //     // shift
+    //     arr1.shift()
+    //     console.log(arr1);
         
-        // unshift
-        arr1.unshift(203)
-        console.log(arr1);
+    //     // unshift
+    //     arr1.unshift(203)
+    //     console.log(arr1);
         
-        // indexOf
-        console.log(arr1.indexOf(88));
+    //     // indexOf
+    //     console.log(arr1.indexOf(88));
         
-        // includes
-        console.log(arr1.includes(88));
+    //     // includes
+    //     console.log(arr1.includes(88));
         
-        // find
-        let finds = arr1.find((x)=>x==80)
-        console.log(finds);
+    //     // find
+    //     let finds = arr1.find((x)=>x==80)
+    //     console.log(finds);
         
-        // sort
-        let days = ["mon","tues","thurs","sat","sun",]
-        // console.log(days.sort());
-        // console.log(arr1.sort());
+    //     // sort
+    //     let days = ["mon","tues","thurs","sat","sun",]
+    //     // console.log(days.sort());
+    //     // console.log(arr1.sort());
         
-        // slice
-        console.log(days.slice(0,3));
+    //     // slice
+    //     console.log(days.slice(0,3));
         
-        //splice
-        days.splice(2,0,"wed")
-        days.splice(4,0,"fri")
-        console.log(days);
+    //     //splice
+    //     days.splice(2,0,"wed")
+    //     days.splice(4,0,"fri")
+    //     console.log(days);
         
-        // spread
-        let newArr = [...days,...arr1]
-        console.log(newArr);
+    //     // spread
+    //     let newArr = [...days,...arr1]
+    //     console.log(newArr);
         
 
-        // rest
-        let [first,second,...rest] = days
-        console.log(first);
-        console.log(second);
-        console.log(rest);
+    //     // rest
+    //     let [first,second,...rest] = days
+    //     console.log(first);
+    //     console.log(second);
+    //     console.log(rest);
         
-        // template literals
-        let agea = 20
-        console.log("He is Above"+agea+"He is Adult");
-        console.log(`He is Above ${agea} He is Adult`);
+    //     // template literals
+    //     let agea = 20
+    //     console.log("He is Above"+agea+"He is Adult");
+    //     console.log(`He is Above ${agea} He is Adult`);
         
-        // setTimeout
+    //     // setTimeout
+    //     setTimeout(()=>{
+    //         console.log("SetTimeout is working");
+            
+    //     },5000)
         // setInterval
-        
-        
+        // setInterval(()=>{
+        //     console.log("setInterval is working");
+            
+        // },2000)
+
+// promise
+// let bookTicket = new Promise((resolved,reject)=>{
+//     let booked = false
+//     if(booked){
+//         resolved("Booked Succesfully")
+//     }
+//     else{
+//         reject("Unable to book")
+//     }
+// })
+
+// bookTicket.then((result)=>console.log(result)).catch((err)=>console.log(err))
+
+// race
+// any 
+// all
+// allsettled
+// const friend1 = new Promise((resolved,reject)=>{
+//     let Reached1 = true
+//     if(Reached1){
+//         resolved("Reached1 Reached Home Successfully")
+//     }
+//     else{
+//         reject("Reached1 Not yet Reached Home ")
+//     }
+// })
+// const friend2 = new Promise((resolved,reject)=>{
+//     let Reached2 = true
+//     if(Reached2){
+//         resolved("Reached2 Reached Home Successfully")
+//     }
+//     else{
+//         reject("Reached2 Not yet Reached Home ")
+//     }
+// })
+// const friend3 = new Promise((resolved,reject)=>{
+//     let Reached3 = false
+//     if(Reached3){
+//         resolved("Reached3 Reached Home Successfully")
+//     }
+//     else{
+//         reject("Reached3 Not yet Reached Home ")
+//     }
+// })
+// const friend4 = new Promise((resolved,reject)=>{
+//     setTimeout(()=>{
+//         let Reached4 = false
+//         if(Reached4){
+//             resolved("Reached4 Reached Home Successfully")
+//         }
+//         else{
+//             reject("Reached4 Not yet Reached Home ")
+//         }
+//     },5000)
+// })
+
+
+// Promise.race([friend1,friend2,friend3,friend4]).then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+// Promise.any([friend1,friend2,friend3,friend4]).then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+// Promise.all([friend1,friend2,friend3,friend4]).then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+// Promise.allSettled([friend1,friend2,friend3,friend4]).then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+
+// const fetchData = new Promise ((resolved,reject)=>{
+//     fetch('https://jsonplaceholder.typicode.com/posts').then((res)=>{
+//         if(res.ok){
+//             resolved(res.json())
+//         }
+//         else{
+//             reject("Unable to connect API")
+//         }
+//     })
+// })
+// fetchData.then((res)=>console.log(res)).catch((err)=>console.log(err))
+
+// // async
+// const fetchData = async()=>{
+//     try {
+//         let res = await fetch("https://jsonplaceholder.typicode.com/posts")
+//         if(!res.ok){
+//             throw Error("Unable to connect API")         
+//         }
+//         let data = await res.json()
+//         console.log(data);        
+//     } catch (error) {
+//         console.log(error);        
+//     }
+// }
+// fetchData()
+
