@@ -1,29 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Card from '../../Components/Card/Card'
-import img1 from '../../assets/Images/nature.jpg'
+import { Passingvalue } from '../../App'
 
-const products = [
-  {
-    Image:img1,
-    prodName:"New Shirt",
-    ProdPrice:500,
-    ProdDesc:"kjhgughjbnkjnkjghg"
-  },
-  {
-    Image:img1,
-    prodName:"New Shirt",
-    ProdPrice:500,
-    ProdDesc:"kjhgughjbnkjnkjghg"
-  },
-  {
-    Image:img1,
-    prodName:"New Shirt",
-    ProdPrice:500,
-    ProdDesc:"kjhgughjbnkjnkjghg"
-  }
-]
+
 
 const All = () => {
+  const products = useContext(Passingvalue)
   return (
     <div className='All'>
       {products.map((item)=>(

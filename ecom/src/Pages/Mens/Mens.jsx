@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Card from '../../Components/Card/Card'
+import { Passingvalue } from '../../App'
 
 const Mens = () => {
+  const products = useContext(Passingvalue)
+  const mensProd = products.filter((x)=>x.prodCat==="Mens")
   return (
     <div className='Mens'>
-      <Card/>
+      {mensProd.map((item)=>(
+        <Card {...item}/>
+      ))}
     </div>
   )
 }
